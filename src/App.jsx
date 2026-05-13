@@ -79,6 +79,26 @@ const T = {
     handoffBtn: (p) => `${p}のコードを設定する →`,
     adSpace: "広告スペース",
     language: "言語",
+    unlock: "フルバージョンを解放",
+    unlockDesc: "色12色・桁数8桁・試行30回・同色あり・広告なし",
+    unlockBtn: "解放する",
+    unlockCancel: "キャンセル",
+    howToPlay: "遊び方",
+    howToPlayTitle: "遊び方",
+    howToPlayClose: "閉じる",
+    rules: [
+      { title: "目的", desc: "隠されたカラーコードを制限手数以内に解読しよう！" },
+      { title: "色を選ぶ", desc: "パレットから色を選んでスロットに配置する。" },
+      { title: "判定する", desc: "「判定」ボタンを押すと結果が表示される。" },
+      { title: "赤ペグ", desc: "位置も色も正解！" },
+      { title: "白ペグ", desc: "色は正解だが位置が違う。" },
+      { title: "2Pモード（対戦）", desc: "お互いにコードを設定して当て合う。少ない手数で当てた方が勝ち！" },
+      { title: "2Pモード（CPU）", desc: "CPUが設定したコードを2人で交互に挑戦。先に解読した方が勝ち！" },
+    ],
+    unlockPrice: "¥400",
+    unlocked: "解放済み",
+    premiumBadge: "PRO",
+    freeLimit: "無料版では制限があります",
   },
   en: {
     title: "Color Decode",
@@ -130,6 +150,26 @@ const T = {
     handoffBtn: (p) => `${p}: Set Code →`,
     adSpace: "Ad Space",
     language: "Language",
+    unlock: "Unlock Full Version",
+    unlockDesc: "12 colors, 8 digits, 30 guesses, duplicates & no ads",
+    unlockBtn: "Unlock",
+    unlockCancel: "Cancel",
+    howToPlay: "How to Play",
+    howToPlayTitle: "How to Play",
+    howToPlayClose: "Close",
+    rules: [
+      { title: "Goal", desc: "Crack the hidden color code within the allowed number of guesses!" },
+      { title: "Pick Colors", desc: "Select a color from the palette and tap a slot to place it." },
+      { title: "Submit", desc: "Tap Submit to get feedback on your guess." },
+      { title: "Red Peg", desc: "Correct color AND position!" },
+      { title: "White Peg", desc: "Correct color but wrong position." },
+      { title: "2P Battle", desc: "Each player sets a code for the other. Fewest guesses wins!" },
+      { title: "2P vs CPU", desc: "CPU sets one code. Take turns guessing. First to crack it wins!" },
+    ],
+    unlockPrice: "$2.99",
+    unlocked: "Unlocked",
+    premiumBadge: "PRO",
+    freeLimit: "Limited in free version",
   },
   ko: {
     title: "Color Decode",
@@ -181,6 +221,26 @@ const T = {
     handoffBtn: (p) => `${p}: 코드 설정 →`,
     adSpace: "광고",
     language: "언어",
+    unlock: "전체 버전 해제",
+    unlockDesc: "12색, 8자리, 30회, 중복 허용, 광고 없음",
+    unlockBtn: "해제",
+    unlockCancel: "취소",
+    howToPlay: "게임 방법",
+    howToPlayTitle: "게임 방법",
+    howToPlayClose: "닫기",
+    rules: [
+      { title: "목표", desc: "제한된 횟수 안에 숨겨진 색상 코드를 해독하세요!" },
+      { title: "색상 선택", desc: "팔레트에서 색상을 선택하고 슬롯에 배치하세요." },
+      { title: "제출", desc: "제출 버튼을 눌러 결과를 확인하세요." },
+      { title: "빨간 핀", desc: "색상과 위치 모두 정확!" },
+      { title: "흰색 핀", desc: "색상은 맞지만 위치가 틀림." },
+      { title: "2인 대결", desc: "서로 코드를 설정하고 맞춰보세요. 적은 횟수로 맞춘 사람이 승리!" },
+      { title: "2인 vs CPU", desc: "CPU가 설정한 코드를 교대로 도전. 먼저 해독한 사람이 승리!" },
+    ],
+    unlockPrice: "₩3,900",
+    unlocked: "해제됨",
+    premiumBadge: "PRO",
+    freeLimit: "무료 버전에서는 제한됩니다",
   },
   fr: {
     title: "Color Decode",
@@ -232,6 +292,26 @@ const T = {
     handoffBtn: (p) => `${p} : Définir le code →`,
     adSpace: "Publicité",
     language: "Langue",
+    unlock: "Débloquer la version complète",
+    unlockDesc: "12 couleurs, 8 chiffres, 30 essais, doublons & sans pub",
+    unlockBtn: "Débloquer",
+    unlockCancel: "Annuler",
+    howToPlay: "Comment jouer",
+    howToPlayTitle: "Comment jouer",
+    howToPlayClose: "Fermer",
+    rules: [
+      { title: "Objectif", desc: "Déchiffrez le code couleur caché en un nombre limité d'essais !" },
+      { title: "Choisir", desc: "Sélectionnez une couleur et placez-la dans un emplacement." },
+      { title: "Valider", desc: "Appuyez sur Valider pour obtenir un retour." },
+      { title: "Pion rouge", desc: "Couleur ET position correctes !" },
+      { title: "Pion blanc", desc: "Bonne couleur mais mauvaise position." },
+      { title: "2J Bataille", desc: "Chaque joueur définit un code. Le moins d'essais gagne !" },
+      { title: "2J vs CPU", desc: "Le CPU définit un code. À tour de rôle, le premier à déchiffrer gagne !" },
+    ],
+    unlockPrice: "2,99 €",
+    unlocked: "Débloqué",
+    premiumBadge: "PRO",
+    freeLimit: "Limité en version gratuite",
   },
   es: {
     title: "Color Decode",
@@ -283,6 +363,26 @@ const T = {
     handoffBtn: (p) => `${p}: Establecer código →`,
     adSpace: "Publicidad",
     language: "Idioma",
+    unlock: "Desbloquear versión completa",
+    unlockDesc: "12 colores, 8 dígitos, 30 intentos, duplicados & sin anuncios",
+    unlockBtn: "Desbloquear",
+    unlockCancel: "Cancelar",
+    howToPlay: "Cómo jugar",
+    howToPlayTitle: "Cómo jugar",
+    howToPlayClose: "Cerrar",
+    rules: [
+      { title: "Objetivo", desc: "¡Descifra el código de colores oculto en el número de intentos permitido!" },
+      { title: "Elegir", desc: "Selecciona un color y colócalo en una ranura." },
+      { title: "Enviar", desc: "Toca Enviar para obtener retroalimentación." },
+      { title: "Clavija roja", desc: "¡Color Y posición correctos!" },
+      { title: "Clavija blanca", desc: "Color correcto pero posición incorrecta." },
+      { title: "2J Batalla", desc: "Cada jugador define un código. ¡Gana quien use menos intentos!" },
+      { title: "2J vs CPU", desc: "El CPU define un código. Por turnos, ¡el primero en descifrar gana!" },
+    ],
+    unlockPrice: "2,99 €",
+    unlocked: "Desbloqueado",
+    premiumBadge: "PRO",
+    freeLimit: "Limitado en versión gratuita",
   },
   pt: {
     title: "Color Decode",
@@ -334,6 +434,14 @@ const T = {
     handoffBtn: (p) => `${p}: Definir código →`,
     adSpace: "Publicidade",
     language: "Idioma",
+    unlock: "Desbloquear versão completa",
+    unlockDesc: "12 cores, 8 dígitos, 30 tentativas, repetições & sem anúncios",
+    unlockBtn: "Desbloquear",
+    unlockCancel: "Cancelar",
+    unlockPrice: "R$ 14,90",
+    unlocked: "Desbloqueado",
+    premiumBadge: "PRO",
+    freeLimit: "Limitado na versão gratuita",
   },
   id: {
     title: "Color Decode",
@@ -385,6 +493,26 @@ const T = {
     handoffBtn: (p) => `${p}: Atur Kode →`,
     adSpace: "Iklan",
     language: "Bahasa",
+    unlock: "Buka versi lengkap",
+    unlockDesc: "12 warna, 8 digit, 30 tebakan, duplikat & tanpa iklan",
+    unlockBtn: "Buka",
+    unlockCancel: "Batal",
+    howToPlay: "Cara Bermain",
+    howToPlayTitle: "Cara Bermain",
+    howToPlayClose: "Tutup",
+    rules: [
+      { title: "Tujuan", desc: "Pecahkan kode warna tersembunyi dalam jumlah tebakan yang diizinkan!" },
+      { title: "Pilih", desc: "Pilih warna dari palet dan tempatkan di slot." },
+      { title: "Kirim", desc: "Ketuk Kirim untuk mendapatkan umpan balik." },
+      { title: "Pin merah", desc: "Warna DAN posisi benar!" },
+      { title: "Pin putih", desc: "Warna benar tapi posisi salah." },
+      { title: "2P Pertempuran", desc: "Setiap pemain menetapkan kode. Tebakan paling sedikit menang!" },
+      { title: "2P vs CPU", desc: "CPU menetapkan kode. Bergantian, yang pertama memecahkan menang!" },
+    ],
+    unlockPrice: "Rp 45.000",
+    unlocked: "Dibuka",
+    premiumBadge: "PRO",
+    freeLimit: "Terbatas di versi gratis",
   },
   th: {
     title: "Color Decode",
@@ -436,6 +564,26 @@ const T = {
     handoffBtn: (p) => `${p}: ตั้งรหัส →`,
     adSpace: "โฆษณา",
     language: "ภาษา",
+    unlock: "ปลดล็อกเวอร์ชันเต็ม",
+    unlockDesc: "12 สี, 8 หลัก, 30 ครั้ง, ซ้ำได้ & ไม่มีโฆษณา",
+    unlockBtn: "ปลดล็อก",
+    unlockCancel: "ยกเลิก",
+    howToPlay: "วิธีเล่น",
+    howToPlayTitle: "วิธีเล่น",
+    howToPlayClose: "ปิด",
+    rules: [
+      { title: "เป้าหมาย", desc: "ถอดรหัสสีที่ซ่อนอยู่ภายในจำนวนครั้งที่กำหนด!" },
+      { title: "เลือกสี", desc: "เลือกสีจากจานสีและวางในช่อง" },
+      { title: "ส่ง", desc: "แตะส่งเพื่อรับผลลัพธ์" },
+      { title: "หมุดแดง", desc: "สีและตำแหน่งถูกต้อง!" },
+      { title: "หมุดขาว", desc: "สีถูกแต่ตำแหน่งผิด" },
+      { title: "2P แข่งขัน", desc: "แต่ละผู้เล่นตั้งรหัส ใครใช้ครั้งน้อยกว่าชนะ!" },
+      { title: "2P vs CPU", desc: "CPU ตั้งรหัส สลับกันเดา ใครถอดได้ก่อนชนะ!" },
+    ],
+    unlockPrice: "฿89",
+    unlocked: "ปลดล็อกแล้ว",
+    premiumBadge: "PRO",
+    freeLimit: "จำกัดในเวอร์ชันฟรี",
   },
 };
 
@@ -552,12 +700,15 @@ function ColorPalette({ colors, onSelect, selected }) {
   );
 }
 
-function Slider({ label, val, set, min, max }) {
+function Slider({ label, val, set, min, max, freeLabel }) {
   return (
     <div style={{ width: "100%", maxWidth: 320 }}>
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 2 }}>
-        <span style={{ color: "#666", fontSize: 10, letterSpacing: ".08em", textTransform: "uppercase", fontFamily: font }}>{label}</span>
-        <span style={{ color: accent, fontWeight: 700, fontSize: 11, fontFamily: font }}>{val}</span>
+        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+          <span style={{ color: "#666", fontSize: 10, letterSpacing: ".08em", textTransform: "uppercase", fontFamily: font }}>{label}</span>
+          <span style={{ color: accent, fontWeight: 700, fontSize: 11, fontFamily: font }}>{val}</span>
+        </div>
+        {freeLabel && <span style={{ color: accent, fontSize: 9, fontFamily: font, opacity: 0.8 }}>{freeLabel}</span>}
       </div>
       <input type="range" min={min} max={max} value={val} onChange={e => set(Number(e.target.value))}
         style={{ width: "100%", accentColor: accent, margin: "2px 0" }} />
@@ -678,8 +829,95 @@ function BannerAd({ darkMode, t }) {
   );
 }
 
+
+// ── How To Play Modal ────────────────────────────────────────────────────────
+function HowToPlayModal({ t, darkMode, onClose }) {
+  const bg = darkMode ? "#1a1a1a" : "#fff";
+  const textColor = darkMode ? "#f5f1e8" : "#111";
+  const cardBg = darkMode ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.04)";
+  return (
+    <div style={{
+      position: "fixed", inset: 0, zIndex: 300,
+      background: "rgba(0,0,0,0.75)",
+      display: "flex", alignItems: "center", justifyContent: "center",
+      padding: 24,
+    }}>
+      <div style={{
+        background: bg, borderRadius: 20, padding: "24px 20px",
+        width: "100%", maxWidth: 360,
+        border: `1px solid ${darkMode ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.08)"}`,
+        boxShadow: "0 8px 40px rgba(0,0,0,0.4)",
+        maxHeight: "80vh", overflowY: "auto",
+      }}>
+        <h2 style={{ margin: "0 0 16px", fontFamily: "'DM Serif Display', serif", color: textColor, fontSize: 22 }}>
+          {t.howToPlayTitle}
+        </h2>
+        <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 20 }}>
+          {t.rules.map((rule, i) => (
+            <div key={i} style={{ background: cardBg, borderRadius: 10, padding: "10px 14px" }}>
+              <p style={{ margin: "0 0 3px", fontFamily: font, fontWeight: 700, fontSize: 13, color: accent }}>{rule.title}</p>
+              <p style={{ margin: 0, fontFamily: font, fontSize: 12, color: darkMode ? "#888" : "#666", lineHeight: 1.5 }}>{rule.desc}</p>
+            </div>
+          ))}
+        </div>
+        <button onClick={onClose} style={{
+          width: "100%", padding: "12px 0", borderRadius: 50,
+          background: accent, color: "#111", border: "none",
+          fontSize: 14, fontWeight: 800, cursor: "pointer", fontFamily: font,
+          boxShadow: `0 4px 20px ${accent}44`,
+        }}>{t.howToPlayClose}</button>
+      </div>
+    </div>
+  );
+}
+
+// ── Unlock Modal ──────────────────────────────────────────────────────────────
+function UnlockModal({ t, darkMode, onUnlock, onClose }) {
+  const bg = darkMode ? "#1a1a1a" : "#fff";
+  const textColor = darkMode ? "#f5f1e8" : "#111";
+  return (
+    <div style={{
+      position: "fixed", inset: 0, zIndex: 300,
+      background: "rgba(0,0,0,0.75)",
+      display: "flex", alignItems: "center", justifyContent: "center",
+      padding: 24,
+    }}>
+      <div style={{
+        background: bg, borderRadius: 20, padding: "28px 24px",
+        width: "100%", maxWidth: 340, textAlign: "center",
+        border: `1px solid ${darkMode ? "rgba(200,241,53,0.2)" : "rgba(0,0,0,0.1)"}`,
+        boxShadow: darkMode ? `0 0 40px rgba(200,241,53,0.1)` : "0 8px 40px rgba(0,0,0,0.15)",
+      }}>
+        <div style={{
+          display: "inline-block", background: accent, color: "#111",
+          fontSize: 11, fontWeight: 800, letterSpacing: ".1em",
+          padding: "4px 14px", borderRadius: 20, marginBottom: 14, fontFamily: font,
+        }}>{t.premiumBadge}</div>
+        <h2 style={{ margin: "0 0 8px", fontFamily: "'DM Serif Display', serif", color: textColor, fontSize: 22 }}>
+          {t.unlock}
+        </h2>
+        <p style={{ margin: "0 0 20px", color: darkMode ? "#666" : "#888", fontSize: 13, fontFamily: font, lineHeight: 1.6 }}>
+          {t.unlockDesc}
+        </p>
+        <div style={{ display: "flex", flex: "column", gap: 10, flexDirection: "column" }}>
+          <button onClick={onUnlock} style={{
+            padding: "13px 0", borderRadius: 50, background: accent, color: "#111",
+            border: "none", fontSize: 15, fontWeight: 800, cursor: "pointer", fontFamily: font,
+            boxShadow: `0 4px 20px ${accent}44`, width: "100%",
+          }}>{t.unlockBtn} — {t.unlockPrice}</button>
+          <button onClick={onClose} style={{
+            padding: "10px 0", borderRadius: 50, background: "none",
+            border: `1px solid ${darkMode ? "#333" : "#ddd"}`,
+            color: darkMode ? "#555" : "#999", fontSize: 13, cursor: "pointer", fontFamily: font, width: "100%",
+          }}>{t.unlockCancel}</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ── Settings ──────────────────────────────────────────────────────────────────
-function SettingsScreen({ onStart, darkMode, setDarkMode, lang, setLang, t }) {
+function SettingsScreen({ onStart, darkMode, setDarkMode, lang, setLang, t, isPro, onShowUnlock, onShowHowToPlay }) {
   const [mode, setMode] = useState("single");
   const [numColors, setNumColors] = useState(6);
   const [codeLength, setCodeLength] = useState(4);
@@ -734,10 +972,30 @@ function SettingsScreen({ onStart, darkMode, setDarkMode, lang, setLang, t }) {
         )}
       </div>
 
-      <Slider label={t.colors} val={numColors} set={setNumColors} min={4} max={12} />
-      <Slider label={t.codeLength} val={codeLength} set={setCodeLength} min={3} max={6} />
-      <Slider label={t.maxGuesses} val={maxGuesses} set={setMaxGuesses} min={6} max={30} />
-      <Toggle label={t.allowDuplicates} value={allowDuplicates} onChange={setAllowDuplicates} />
+      <Slider label={t.colors} val={Math.min(numColors, isPro ? 12 : 6)} set={(v) => { if (!isPro && v > 6) { onShowUnlock(); return; } setNumColors(v); }} min={4} max={12} freeLabel={!isPro ? "FREE 〜6" : null} />
+      <Slider label={t.codeLength} val={Math.min(codeLength, isPro ? 8 : 4)} set={(v) => { if (!isPro && v > 4) { onShowUnlock(); return; } setCodeLength(v); }} min={3} max={8} freeLabel={!isPro ? "FREE 〜4" : null} />
+      <Slider label={t.maxGuesses} val={Math.min(maxGuesses, isPro ? 30 : 10)} set={(v) => { if (!isPro && v > 10) { onShowUnlock(); return; } setMaxGuesses(v); }} min={6} max={30} freeLabel={!isPro ? "FREE 〜10" : null} />
+      <div style={{ width: "100%", maxWidth: 320 }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+            <span style={{ color: "#666", fontSize: 11, letterSpacing: ".08em", textTransform: "uppercase", fontFamily: font }}>{t.allowDuplicates}</span>
+            {!isPro && <span style={{ color: accent, fontSize: 9, fontFamily: font, opacity: 0.8 }}>FREE: OFF</span>}
+          </div>
+          <div onClick={() => { if (!isPro) { onShowUnlock(); return; } setAllowDuplicates(v => !v); }} style={{
+            width: 44, height: 24, borderRadius: 12, cursor: "pointer",
+            background: (isPro && allowDuplicates) ? accent : "#252525",
+            border: "1px solid rgba(255,255,255,0.08)",
+            position: "relative", transition: "background .2s",
+            opacity: isPro ? 1 : 0.5,
+          }}>
+            <div style={{
+              position: "absolute", top: 3, left: (isPro && allowDuplicates) ? 22 : 3,
+              width: 16, height: 16, borderRadius: "50%",
+              background: (isPro && allowDuplicates) ? "#111" : "#555", transition: "left .2s",
+            }} />
+          </div>
+        </div>
+      </div>
 
       <div style={{ display: "flex", gap: 5 }}>
         {ALL_COLORS.slice(0, numColors).map(c => (
@@ -782,7 +1040,30 @@ function SettingsScreen({ onStart, darkMode, setDarkMode, lang, setLang, t }) {
         </div>
       </div>
 
-      <button onClick={() => onStart({ mode, numColors, codeLength, maxGuesses, allowDuplicates })} style={{
+      <div style={{ display: "flex", gap: 8, width: "100%", maxWidth: 320 }}>
+        <button onClick={onShowHowToPlay} style={{
+          flex: 1, padding: "8px 0", borderRadius: 50, background: "none",
+          border: `1px solid ${darkMode ? "#2a2a2a" : "#ddd"}`,
+          color: darkMode ? "#666" : "#888",
+          fontSize: 12, fontWeight: 600, cursor: "pointer", fontFamily: font,
+        }}>{t.howToPlay}</button>
+
+        {!isPro && (
+          <button onClick={onShowUnlock} style={{
+            flex: 1, padding: "8px 0", borderRadius: 50, background: "none",
+            border: `1px solid ${accent}88`, color: accent,
+            fontSize: 12, fontWeight: 700, cursor: "pointer", fontFamily: font,
+          }}>{t.unlock}</button>
+        )}
+        {isPro && (
+          <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 6 }}>
+            <span style={{ background: accent, color: "#111", fontSize: 10, fontWeight: 800, padding: "3px 10px", borderRadius: 20, fontFamily: font }}>{t.premiumBadge}</span>
+            <span style={{ color: "#555", fontSize: 11, fontFamily: font }}>{t.unlocked}</span>
+          </div>
+        )}
+      </div>
+
+      <button onClick={() => onStart({ mode, numColors: Math.min(numColors, isPro ? 12 : 6), codeLength: Math.min(codeLength, isPro ? 8 : 4), maxGuesses: Math.min(maxGuesses, isPro ? 30 : 10), allowDuplicates })} style={{
         marginTop: 4, padding: "13px 50px", borderRadius: 50,
         background: accent, color: "#111", border: "none",
         fontSize: 14, fontWeight: 800, cursor: "pointer", fontFamily: font,
@@ -875,7 +1156,7 @@ function CodeSetupScreen({ player, config, onDone, flipped, t }) {
 }
 
 // ── Single player board ───────────────────────────────────────────────────────
-function SingleBoard({ config, onEnd, darkMode, t }) {
+function SingleBoard({ config, onEnd, darkMode, t, isPro }) {
   const secret = useRef(generateCode(config.numColors, config.codeLength, config.allowDuplicates)).current;
   const colors = ALL_COLORS.slice(0, config.numColors);
   const [rows, setRows] = useState([Array(config.codeLength).fill(null)]);
@@ -892,8 +1173,12 @@ function SingleBoard({ config, onEnd, darkMode, t }) {
 
   const handleSlot = (i) => {
     if (status !== "playing") return;
-    if (!config.allowDuplicates && currentGuess.some((c, j) => j !== i && c?.id === selected.id)) return;
-    const next = [...rows]; next[cur] = [...next[cur]]; next[cur][i] = selected; setRows(next);
+    const next = [...rows]; next[cur] = [...next[cur]];
+    // Clear previous position of same color (move instead of duplicate)
+    const prevIdx = next[cur].findIndex((c, j) => j !== i && c?.id === selected.id);
+    if (prevIdx !== -1) next[cur][prevIdx] = null;
+    if (!config.allowDuplicates && prevIdx === -1 && next[cur].some((c, j) => j !== i && c?.id === selected.id)) return;
+    next[cur][i] = selected; setRows(next);
   };
 
   const handleSubmit = () => {
@@ -951,7 +1236,7 @@ function SingleBoard({ config, onEnd, darkMode, t }) {
           }}>次へ →</button>
         </div>
       )}
-      <BannerAd darkMode={darkMode} t={t} />
+      {!isPro && <BannerAd darkMode={darkMode} t={t} />}
     </div>
   );
 }
@@ -991,10 +1276,16 @@ function TwoPlayerBoard({ config, p1Secret, p2Secret, onEnd, darkMode, vibration
       if (board.status !== "playing") return s;
       const cur = board.rows.length - 1;
       const currentRow = board.rows[cur];
-      if (!config.allowDuplicates && currentRow.some((c, j) => j !== slotIdx && c?.id === sel.id)) return s;
-      const newRows = board.rows.map((r, ri) =>
-        ri === cur ? r.map((c, ci) => ci === slotIdx ? sel : c) : r
-      );
+      const prevIdx = currentRow.findIndex((c, j) => j !== slotIdx && c?.id === sel.id);
+      if (!config.allowDuplicates && prevIdx === -1 && currentRow.some((c, j) => j !== slotIdx && c?.id === sel.id)) return s;
+      const newRows = board.rows.map((r, ri) => {
+        if (ri !== cur) return r;
+        return r.map((c, ci) => {
+          if (ci === slotIdx) return sel;
+          if (ci === prevIdx) return null;
+          return c;
+        });
+      });
       const newBoard = { ...board, rows: newRows };
       return player === 1 ? { ...s, p1: newBoard } : { ...s, p2: newBoard };
     });
@@ -1275,10 +1566,16 @@ function TwoVsCpuBoard({ config, onEnd, darkMode, vibration, onMenuOpen, t }) {
       if (board.status !== "playing") return s;
       const cur = board.rows.length - 1;
       const currentRow = board.rows[cur];
-      if (!config.allowDuplicates && currentRow.some((c, j) => j !== slotIdx && c?.id === sel.id)) return s;
-      const newRows = board.rows.map((r, ri) =>
-        ri === cur ? r.map((c, ci) => ci === slotIdx ? sel : c) : r
-      );
+      const prevIdx = currentRow.findIndex((c, j) => j !== slotIdx && c?.id === sel.id);
+      if (!config.allowDuplicates && prevIdx === -1 && currentRow.some((c, j) => j !== slotIdx && c?.id === sel.id)) return s;
+      const newRows = board.rows.map((r, ri) => {
+        if (ri !== cur) return r;
+        return r.map((c, ci) => {
+          if (ci === slotIdx) return sel;
+          if (ci === prevIdx) return null;
+          return c;
+        });
+      });
       return player === 1 ? { ...s, p1: { ...board, rows: newRows } } : { ...s, p2: { ...board, rows: newRows } };
     });
   };
@@ -1542,7 +1839,17 @@ export default function App() {
   const [vibration, setVibration] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
   const [lang, setLang] = useState("ja");
+  const [isPro, setIsPro] = useState(false);
+  const [showUnlock, setShowUnlock] = useState(false);
+  const [showHowToPlay, setShowHowToPlay] = useState(false);
   const t = T[lang];
+
+  const handleUnlock = () => {
+    // TODO: ここに実際の課金処理を追加（RevenueCat等）
+    // 今はテスト用にそのまま解放
+    setIsPro(true);
+    setShowUnlock(false);
+  };
 
   const goHome = () => {
     setScreen("settings"); setConfig(null); setP1Secret(null);
@@ -1594,6 +1901,8 @@ export default function App() {
     <div style={{ minHeight: "100vh", background: bg, display: "flex", alignItems: "center", justifyContent: "center", padding: splitScreen ? 0 : 16, transition: "background .3s" }}>
       <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
       {showHandoff && <HandoffPopup nextPlayer={t.player2} onContinue={handleHandoffContinue} t={t} />}
+      {showUnlock && <UnlockModal t={t} darkMode={darkMode} onUnlock={handleUnlock} onClose={() => setShowUnlock(false)} />}
+      {showHowToPlay && <HowToPlayModal t={t} darkMode={darkMode} onClose={() => setShowHowToPlay(false)} />}
       {showMenu && (
         <MenuDrawer
           onClose={() => setShowMenu(false)}
@@ -1623,7 +1932,7 @@ export default function App() {
           }}>☰</button>
         )}
 
-        {screen === "settings" && <SettingsScreen onStart={handleStart} darkMode={darkMode} setDarkMode={setDarkMode} lang={lang} setLang={setLang} t={t} />}
+        {screen === "settings" && <SettingsScreen onStart={handleStart} darkMode={darkMode} setDarkMode={setDarkMode} lang={lang} setLang={setLang} t={t} isPro={isPro} onShowUnlock={() => setShowUnlock(true)} onShowHowToPlay={() => setShowHowToPlay(true)} />}
 
         {screen === "setup" && config && (
           <CodeSetupScreen
@@ -1633,7 +1942,7 @@ export default function App() {
         )}
 
         {screen === "game-single" && config && (
-          <SingleBoard config={config} darkMode={darkMode} t={t} onEnd={(status, moves) => {
+          <SingleBoard config={config} darkMode={darkMode} t={t} isPro={isPro} onEnd={(status, moves) => {
             setEndData({ p1: { status, moves } });
             setScreen("result");
           }} />
